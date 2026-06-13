@@ -9,10 +9,10 @@ model = joblib.load("../saved_model/heart_model.pkl")
 
 # MySQL Connection
 db = mysql.connector.connect(
-    host=os.getenv("DB_HOST"),
-    user=os.getenv("DB_USER"),
-    password=os.getenv("DB_PASSWORD"),
-    database=os.getenv("DB_NAME")
+    host="localhost",
+    user="root",
+    password="1234",
+    database="heart_disease_db"
 )
 
 cursor = db.cursor()
