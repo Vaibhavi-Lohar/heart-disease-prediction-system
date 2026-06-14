@@ -1,5 +1,6 @@
 CREATE DATABASE heart_disease_db;
 USE heart_disease_db;
+
 CREATE TABLE predictions (
     id INT PRIMARY KEY AUTO_INCREMENT,
     age FLOAT,
