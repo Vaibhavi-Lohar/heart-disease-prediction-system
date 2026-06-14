@@ -18,4 +18,5 @@ CREATE TABLE predictions (
     prediction_result VARCHAR(100),
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 select * from predictions;
